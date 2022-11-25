@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.latestTitleInPage{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topPostsText{
+    margin-top: 20px;
+    margin-right: 350px;
+    font-size: 2.0rem;
+}
+.container2New{
+    width: 100%;
+    height: 450vh;
+}
+.splitBox1{
+    width: 100%;
+    height: 450vh;
+    background-color: #fff;
+    display: flex;
+    padding: 10px auto;
+}
+.splitLeft1{
+    width: 66%;
+    height: 450vh;
+}
+.splitRight1{
+    width: 34%;
+    height: 440vh;
+
+}
+.leftOuter{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.ad{
+    width: 94%;
+    height: 740px;
+    margin: 0px auto;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.0rem;
+    font-family: 'Oswald', sans-serif;
+}
+.rightSide{
+    width: 100%;
+    height: 300vh;
+}
+.rightOuter1{
+    width: 100%;
+    height: 236vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.random{
+    width: 100%;
+    height: 43vh;
+    padding: 10px 14px;
+}
+.random img{
+    border-radius: 4px;
+}
+.extensionPage{
+    width: 100%;
+    height: 240vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+.extensionTitle{
+    width: 80%;
+    height: 150px;
+    font-size: 2.4rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.extensionImage{
+    height: 500px;
+    margin-bottom: 10px;
+}
+.extensionImage img{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+.extensionDes{
+    width: 80%;
+    height: auto;
+    padding: 10px 0;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    padding: 50px;
+}
